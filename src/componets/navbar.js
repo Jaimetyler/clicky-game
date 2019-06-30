@@ -1,23 +1,32 @@
-import React from "react";
+import React, { Component } from "react";
+import { Container } from 'react-bootstrap';
+import "./navbar.css"
 
+class Navbar extends Component {
 
-const Navbar = () => {
-    return (
-        <ul className="navbar">
-            <li className="nav-item">
-                <h1>Clicky Game</h1>
-            </li>
-            <li className="nav-item">
+    state = {
 
-            </li>
-            <li className="nav-item">
+    }
 
-            </li>
-            <li className="nav-item">
+    render() {
+        return (
+            <Container>
+            <ul className="navbar">
+                <li className="nav-item">
+                    <h1>Clicky Game</h1>
+                </li>
+                <li className="nav-item">
 
-            </li>
-        </ul>
-    );
+                </li>
+                <li className="nav-item">
+
+                </li>
+                <li className="nav-item">
+
+                </li>
+            </ul>
+            </Container>
+        );
+    }
 }
-
 export default Navbar;
