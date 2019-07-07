@@ -13,7 +13,7 @@ class App extends Component {
   state = {
     cards,
     score: 0,
-    maxScore: 0
+    highScore: 0
   }
 
   cardShuffle = id => {
@@ -22,9 +22,9 @@ class App extends Component {
       cards: cardShuffle
     });
     if (isClicked.includes(id)) {
-      if (this.state.maxScore < this.state.score) {
+      if (this.state.highScore < this.state.score) {
         this.setState({
-          maxScore: this.state.score
+          highScore: this.state.score
         });
       }
       this.setState({
@@ -45,7 +45,7 @@ class App extends Component {
     console.log(this.state);
     return (
       <Container>
-      <Nav score={this.state.score} maxScore={this.state.maxScore} />
+      <Nav score={this.state.score} highScore={this.state.highScore} />
       <div className = "container"  justify-content= "center">
         <Header/>
         </div>

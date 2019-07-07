@@ -6,7 +6,7 @@ import "./navbar.css"
                 <div className = 'navbar' >
                     <div className = 'container'>
                         <h1>Memory Game</h1>
-                        <span className='score'>score: {props.score} | max score: {props.maxScore}</span>
+                        <span className='score'>Score: {props.score} | High score: {props.highScore}</span>
                     </div>
                 </div>
            
