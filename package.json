@@ -2,7 +2,7 @@
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Jaimetyler/clicky-game",
+  "homepage": "https://Jaimetyler.github.io/clicky-game",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
